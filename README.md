@@ -34,16 +34,19 @@ https://github.com/alexhuang1117/Data-Science-Portfolio
 
 
 ML, DS:
+
 https://github.com/ml-tooling/ml-workspace
 
 https://github.com/LearnDataSci/article-resources
 
 
 E:
+
 https://github.com/OpenRefine/OpenRefine
 
 
 SQL related:
+
 https://github.com/d4software/QueryTree
 
 https://github.com/shzlw/poli
@@ -54,14 +57,18 @@ https://github.com/ankane/blazer
 
 
 ??:
+
 https://github.com/rawgraphs/raw
 
 https://github.com/edp963/davinci
 
 https://github.com/mprove-io/mprove
 
+https://smashing.github.io/
+
 
 complex:
+
 https://github.com/ananas-analytics/ananas-desktop
 
 https://github.com/robmoore/meltano-postgres-example
@@ -70,10 +77,12 @@ https://github.com/KnowageLabs/Knowage-Server
 
 
 Others:
+
 https://github.com/OpenSpace/OpenSpace
 
 
 IoT:
+
 Node-Red 
 InfluxDB
 Grafana
