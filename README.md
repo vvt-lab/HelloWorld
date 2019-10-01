@@ -1,7 +1,6 @@
 # HelloWorld
-my first repository  ...
+my first repository  ... with some yet un-sorted links
 
-Some yet un-organized links:
 
 Awesome lists:
 
@@ -34,20 +33,17 @@ https://github.com/KevinLiao159/MyDataSciencePortfolio
 https://github.com/alexhuang1117/Data-Science-Portfolio
 
 
-
+ML, DS:
 https://github.com/ml-tooling/ml-workspace
 
 https://github.com/LearnDataSci/article-resources
 
 
-
+E:
 https://github.com/OpenRefine/OpenRefine
 
-https://github.com/rawgraphs/raw
 
-
-https://github.com/edp963/davinci
-
+SQL related:
 https://github.com/d4software/QueryTree
 
 https://github.com/shzlw/poli
@@ -56,8 +52,16 @@ https://github.com/rickbergfalk/sqlpad
 
 https://github.com/ankane/blazer
 
+
+??:
+https://github.com/rawgraphs/raw
+
+https://github.com/edp963/davinci
+
 https://github.com/mprove-io/mprove
 
+
+complex:
 https://github.com/ananas-analytics/ananas-desktop
 
 https://github.com/robmoore/meltano-postgres-example
@@ -65,7 +69,7 @@ https://github.com/robmoore/meltano-postgres-example
 https://github.com/KnowageLabs/Knowage-Server
 
 
-
+Others:
 https://github.com/OpenSpace/OpenSpace
 
 
