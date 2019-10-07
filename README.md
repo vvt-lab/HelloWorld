@@ -22,6 +22,9 @@ https://github.com/wsargent/docker-cheat-sheet
 https://github.com/docker/labs
 
 
+https://github.com/vimagick/dockerfiles/tree/master/portainer
+
+
 ## Python
 
 https://github.com/krzjoa/awesome-python-data-science
@@ -43,6 +46,8 @@ https://github.com/LearnDataSci/article-resources
 ## E of ETL, ELT:
 
 https://github.com/OpenRefine/OpenRefine
+
+https://github.com/vimagick/dockerfiles/tree/master/openrefine
 
 
 ## SQL related:
@@ -66,6 +71,8 @@ https://github.com/mprove-io/mprove
 
 https://smashing.github.io/
 
+
+https://github.com/vimagick/dockerfiles/tree/master/superset
 
 
 https://github.com/ananas-analytics/ananas-desktop
