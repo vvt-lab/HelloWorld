@@ -1,4 +1,4 @@
-# HelloWorld
+# Hello World
 my first repository  ... with some yet un-sorted links
 
 
@@ -67,7 +67,6 @@ https://github.com/mprove-io/mprove
 https://smashing.github.io/
 
 
-## unsorted II:
 
 https://github.com/ananas-analytics/ananas-desktop
 
@@ -79,7 +78,9 @@ https://github.com/KnowageLabs/Knowage-Server
 ## IoT:
 
 Node-Red
+
 InfluxDB
+
 Grafana
 
 
