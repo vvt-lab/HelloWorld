@@ -1,4 +1,4 @@
-## Ananas Analytics
+## Ananas-Analytics Desktop
 
 ### Dockerfile 
 
