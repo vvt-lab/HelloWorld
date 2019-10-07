@@ -13,5 +13,5 @@ RUN apk update \
   && apk add --no-cache curl \
   && curl -L ${ANANAS_URL} \
   && chmod a+x ${ANANAS_FILE}
-    
+
 ENTRYPOINT ["./${ANANAS_FILE}"]
