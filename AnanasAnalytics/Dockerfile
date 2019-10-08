@@ -10,9 +10,9 @@ ENV ANANAS_FILE Ananas.Analytics.Desktop.Edition.${ANANAS_VERSION}.linux.AppImag
 ENV ANANAS_URL https://github.com/ananas-analytics/ananas-desktop/releases/download/v"${ANANAS_VERSION}/${ANANAS_FILE}
 
 RUN apk update && \
-      apk add --no-cache curl && \
-      curl -L ${ANANAS_URL} && \
-      chmod a+x ${ANANAS_FILE}
+    apk add --no-cache curl && \
+    curl -L ${ANANAS_URL} && \
+    chmod a+x ${ANANAS_FILE}
 
 # ENTRYPOINT in shell form to handle ENV variable
 ENTRYPOINT ./${ANANAS_FILE}
