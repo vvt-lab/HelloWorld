@@ -1,5 +1,6 @@
 # Dockerfile for DataCleaner ("forked" from a post from DataCleaner/Issues) 
-# incl. sub-folder /dc_custom_libs for custom jdbc drivers, e.g. mySQL
+# incl. sub-folders: /opt            for datacleaner and
+#                    /dc_custom_libs for custom jdbc drivers, e.g. mySQL
 
 
 FROM openjdk:8-jdk-alpine
