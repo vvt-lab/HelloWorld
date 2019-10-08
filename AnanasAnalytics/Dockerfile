@@ -14,4 +14,5 @@ RUN apk update && \
   curl -L ${ANANAS_URL} && \
   chmod a+x ${ANANAS_FILE}
 
-ENTRYPOINT ["./${ANANAS_FILE}"]
+# ENTRYPOINT in shell form to handle ENV variable
+ENTRYPOINT ./${ANANAS_FILE}
