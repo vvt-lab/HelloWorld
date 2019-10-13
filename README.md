@@ -24,6 +24,9 @@ https://github.com/docker/labs
 
 https://github.com/vimagick/dockerfiles/tree/master/portainer
 
+## Running GUI Apps on Docker
+
+https://cuneyt.aliustaoglu.biz/en/running-gui-applications-in-docker-on-windows-linux-mac-hosts/
 
 ## Python
 
