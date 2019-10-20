@@ -25,3 +25,4 @@ ENTRYPOINT ["/ananas/desktop.linux.AppImage"]
 
 # ENTRYPOINT in shell form to handle ENV variable
 # ENTRYPOINT /ananas/$ANANAS_FILE
+# ENTRYPOINT ./ananas/desktop.linux.AppImage
