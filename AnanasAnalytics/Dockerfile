@@ -8,16 +8,21 @@ MAINTAINER vvt-lab
 ENV ANANAS_VERSION 0.9.0
 ENV ANANAS_FILE Ananas.Analytics.Desktop.Edition.$ANANAS_VERSION.linux.AppImage
 
-# ENV ANANAS_URL https://github.com/ananas-analytics/ananas-desktop/releases/download/v$ANANAS_VERSION/$ANANAS_FILE
-ENV ANANAS_URL https://github.com/ananas-analytics/ananas-desktop/releases/download/v$ANANAS_VERSION/Ananas.Analytics.Desktop.Edition.$ANANAS_VERSION.linux.AppImage
+ENV ANANAS_URL https://github.com/ananas-analytics/ananas-desktop/releases/download/v$ANANAS_VERSION/$ANANAS_FILE
+# ENV ANANAS_URL https://github.com/ananas-analytics/ananas-desktop/releases/download/v$ANANAS_VERSION/Ananas.Analytics.Desktop.Edition.$ANANAS_VERSION.linux.AppImage
 
 RUN apk update && \
   mkdir -p /ananas && \
   apk add --no-cache curl && \
-  curl -L $ANANAS_URL > /ananas/$ANANAS_FILE && \
-  chmod a+x /ananas/$ANANAS_FILE
+  curl -L $ANANAS_URL > /ananas/desktop.linux.AppImage && \
+  chmod a+x /ananas/desktop.linux.AppImage
+
+# curl -L $ANANAS_URL > /ananas/$ANANAS_FILE && \
+# chmod a+x /ananas/$ANANAS_FILE
   
 WORKDIR /ananas
 
+ENTRYPOINT ["/ananas/desktop.linux.AppImage"]
+
 # ENTRYPOINT in shell form to handle ENV variable
-ENTRYPOINT ./ananas/$ANANAS_FILE
+# ENTRYPOINT ./ananas/$ANANAS_FILE
