@@ -9,7 +9,6 @@ ENV ANANAS_VERSION 0.9.0
 ENV ANANAS_FILE Ananas.Analytics.Desktop.Edition.$ANANAS_VERSION.linux.AppImage
 
 ENV ANANAS_URL https://github.com/ananas-analytics/ananas-desktop/releases/download/v$ANANAS_VERSION/$ANANAS_FILE
-# ENV ANANAS_URL https://github.com/ananas-analytics/ananas-desktop/releases/download/v$ANANAS_VERSION/Ananas.Analytics.Desktop.Edition.$ANANAS_VERSION.linux.AppImage
 
 RUN apk update && \
   mkdir -p /ananas && \
@@ -25,4 +24,4 @@ WORKDIR /ananas
 ENTRYPOINT ["/ananas/desktop.linux.AppImage"]
 
 # ENTRYPOINT in shell form to handle ENV variable
-# ENTRYPOINT ./ananas/$ANANAS_FILE
+# ENTRYPOINT /ananas/$ANANAS_FILE
