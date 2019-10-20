@@ -7,7 +7,8 @@ MAINTAINER vvt-lab
 # https://github.com/ananas-analytics/ananas-desktop/releases/download/v0.9.0/Ananas.Analytics.Desktop.Edition.0.9.0.linux.AppImage
 ENV ANANAS_VERSION 0.9.0
 ENV ANANAS_FILE Ananas.Analytics.Desktop.Edition.$ANANAS_VERSION.linux.AppImage
-ENV ANANAS_URL https://github.com/ananas-analytics/ananas-desktop/releases/download/v$ANANAS_VERSION/$ANANAS_FILE
+# ENV ANANAS_URL https://github.com/ananas-analytics/ananas-desktop/releases/download/v$ANANAS_VERSION/$ANANAS_FILE
+ENV ANANAS_URL https://github.com/ananas-analytics/ananas-desktop/releases/download/v$ANANAS_VERSION/Ananas.Analytics.Desktop.Edition.$ANANAS_VERSION.linux.AppImage
 
 RUN apk update && \
   apk add --no-cache curl && \
