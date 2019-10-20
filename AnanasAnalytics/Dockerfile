@@ -26,3 +26,10 @@ ENTRYPOINT ["/ananas/desktop.linux.AppImage"]
 # ENTRYPOINT in shell form to handle ENV variable
 # ENTRYPOINT /ananas/$ANANAS_FILE
 # ENTRYPOINT ./ananas/desktop.linux.AppImage
+
+# RUN apk update && \
+#  apk add --no-cache curl bash && \
+#  curl -L $ANANAS_URL -s -o desktop.linux.AppImage && \
+#  chmod a+x desktop.linux.AppImage
+
+# ENTRYPOINT ./desktop.linux.AppImage
